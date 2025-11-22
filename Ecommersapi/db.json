@@ -1,0 +1,267 @@
+{
+  "admins": [
+    {
+      "id": "1",
+      "name": "Zhiyad",
+      "email": "admin@gmail.com",
+      "password": "admin123",
+      "role": "admin",
+      "isAdmin": true
+    }
+  ],
+  "users": [
+    {
+      "id": "2779",
+      "name": "jasil",
+      "email": "Jasil@gmail.com",
+      "password": "1234Js",
+      "isBlock": false,
+      "role": "user",
+      "cart": [
+        {
+          "id": "5",
+          "name": "Onyx 02 17 inch 5 Hole Black",
+          "description": "Alloy:yes,Daimeater:16 inch",
+          "price": 38999,
+          "brand": "Alloy",
+          "image_url": "https://bombaytyres.com/cdn/shop/files/IMG_7421copy.jpg?v=1707025954&width=1445",
+          "in_stock": true,
+          "cartid": "5-1762521914904",
+          "quantity": 1
+        },
+        {
+          "id": "f909",
+          "name": "Xxr 571 18x8.5 5x112 35et Diamond Cut Purple wheel",
+          "price": 53600,
+          "image_url": "https://encrypted-tbn2.gstatic.com/shopping?q=tbn:ANd9GcTqvG758pgcM3d8JKg5AvoDUFDswG30CemDrIJjlbhA4ZkupN_AbefE9ccw1k0HMMgkqGGAzeF9Q7aAsTvYxoLN7x33Buha9aFhF-4LZ-W71Jze7ypdZjdMTA",
+          "catogory": "alloy",
+          "description": "Xxr 571 18x8.5 5x112 35et Diamond Cut Purple wheel",
+          "in_stock": true,
+          "brand": "XR",
+          "cartid": "f909-1762521916470",
+          "quantity": 1
+        },
+        {
+          "id": "3293",
+          "name": "alloy wheel",
+          "price": 122000,
+          "image_url": "https://www.platiindia.com/images/ProductImages/medium/py-010-20-114x5--black-milling.side-1654155482.jpg",
+          "catogory": "alloy",
+          "descreption": "ergehgrthtyhertgrtdf",
+          "cartid": "3293-1762521917561",
+          "quantity": 1
+        },
+        {
+          "id": "c918",
+          "name": "Car Craft Compatible With Maruti Suzuki Swift 2018-2023 Upgraded Tail Light Lamp Xenon Taillight Retrofit",
+          "price": 17998,
+          "image_url": "https://encrypted-tbn2.gstatic.com/shopping?q=tbn:ANd9GcSyJKLjo0pXx-Q1EI7JmCSWCaG2dBG-eQJ0G7w7UIibx51Kv_e4oHfTSHEhnunNdZLm1bhLyDAKnHOVMZq4M5KCVu6FAmSa283-y0pjkz8pcvp9jxULn7uV6aY",
+          "cartid": "c918-1763800687674",
+          "quantity": 1
+        },
+        {
+          "id": "7026",
+          "name": "Maties Waterproof Trunk/Boot Strip Flow Light Tail Lamp Compatible For All Car 134 Car Fancy Lights",
+          "price": 739,
+          "image_url": "https://encrypted-tbn2.gstatic.com/shopping?q=tbn:ANd9GcQDyE-90pFyZsNjVLbhCTvEV3wK4dKoF9nv-JJKis-98cnghJSlrK-Rb19Pt7ZmsK0VvhYDl5N2MKWf6IAskJoaz8rZXwEcLYvKF-YHB7CO",
+          "cartid": "7026-1763800689561",
+          "quantity": 1
+        },
+        {
+          "id": "2",
+          "name": "Onyx 02 16 inch 4 or 8 Hole Copper",
+          "description": "Alloy:yes,Daimeater:16 inch",
+          "price": 33000,
+          "brand": "Alloy",
+          "image_url": "https://bombaytyres.com/cdn/shop/files/IMG_7403copy.jpg?v=1706367660&width=713",
+          "in_stock": true,
+          "cartid": "2-1763800723596",
+          "quantity": 3
+        }
+      ],
+      "orders": [
+        {
+          "id": 1763800744989,
+          "date": "2025-11-22T08:39:04.989Z",
+          "items": [
+            {
+              "id": "2",
+              "name": "Onyx 02 16 inch 4 or 8 Hole Copper",
+              "price": 33000,
+              "quantity": 1
+            }
+          ],
+          "address": "kadampuzha\n",
+          "paymentMethod": "COD",
+          "status": "Delivered"
+        }
+      ],
+      "wishlist": [
+        {
+          "id": "5",
+          "name": "Onyx 02 17 inch 5 Hole Black",
+          "description": "Alloy:yes,Daimeater:16 inch",
+          "price": 38999,
+          "brand": "Alloy",
+          "image_url": "https://bombaytyres.com/cdn/shop/files/IMG_7421copy.jpg?v=1707025954&width=1445",
+          "in_stock": true
+        },
+        {
+          "id": "6f9d",
+          "name": "Motella Crafts PVC Cushion Car Mats-Universal 3 Piece Anti-Skid Noodle Car Foot Mats, Durable Vinyl Rubber Floor Mat,",
+          "price": 131500,
+          "image_url": "https://encrypted-tbn0.gstatic.com/shopping?q=tbn:ANd9GcSIMOtrtcakBebwkdKjaf8EQDGtxZlsp14mfWFOI7h8u661mm5bB0Tzfz4qa-CdWyXZaYEDk53SghlUvu1oOy7RlYXrNw6ZWwX9vsPh8eLK",
+          "catogory": "Mat",
+          "brand": "Mat"
+        },
+        {
+          "id": "f909",
+          "name": "Xxr 571 18x8.5 5x112 35et Diamond Cut Purple wheel",
+          "price": 53600,
+          "image_url": "https://encrypted-tbn2.gstatic.com/shopping?q=tbn:ANd9GcTqvG758pgcM3d8JKg5AvoDUFDswG30CemDrIJjlbhA4ZkupN_AbefE9ccw1k0HMMgkqGGAzeF9Q7aAsTvYxoLN7x33Buha9aFhF-4LZ-W71Jze7ypdZjdMTA",
+          "catogory": "alloy",
+          "description": "Xxr 571 18x8.5 5x112 35et Diamond Cut Purple wheel",
+          "in_stock": true,
+          "brand": "XR"
+        },
+        {
+          "id": "b288",
+          "name": "py-021",
+          "price": 10000,
+          "image_url": "https://bombaytyres.com/cdn/shop/files/1_04e67d5d-2b35-4ba6-9c4b-96a209c8c9ef.jpg?v=1709317573&width=713",
+          "catogory": "alloy wheels",
+          "description": "Wheel Fittment Gallery",
+          "in_stock": true,
+          "brand": "alloy"
+        },
+        {
+          "id": "2",
+          "name": "Onyx 02 16 inch 4 or 8 Hole Copper",
+          "description": "Alloy:yes,Daimeater:16 inch",
+          "price": 33000,
+          "brand": "Alloy",
+          "image_url": "https://bombaytyres.com/cdn/shop/files/IMG_7403copy.jpg?v=1706367660&width=713",
+          "in_stock": true
+        }
+      ]
+    }
+  ],
+  "product": [
+    {
+      "id": "b288",
+      "name": "py-021",
+      "price": 10000,
+      "image_url": "https://bombaytyres.com/cdn/shop/files/1_04e67d5d-2b35-4ba6-9c4b-96a209c8c9ef.jpg?v=1709317573&width=713",
+      "catogory": "alloy wheels",
+      "description": "Wheel Fittment Gallery",
+      "in_stock": true,
+      "brand": "alloy"
+    },
+    {
+      "id": "2",
+      "name": "Onyx 02 16 inch 4 or 8 Hole Copper",
+      "description": "Alloy:yes,Daimeater:16 inch",
+      "price": 33000,
+      "brand": "Alloy",
+      "image_url": "https://bombaytyres.com/cdn/shop/files/IMG_7403copy.jpg?v=1706367660&width=713",
+      "in_stock": true
+    },
+    {
+      "id": "5",
+      "name": "Onyx 02 17 inch 5 Hole Black",
+      "description": "Alloy:yes,Daimeater:16 inch",
+      "price": 38999,
+      "brand": "Alloy",
+      "image_url": "https://bombaytyres.com/cdn/shop/files/IMG_7421copy.jpg?v=1707025954&width=1445",
+      "in_stock": true
+    },
+    {
+      "id": "6f9d",
+      "name": "Motella Crafts PVC Cushion Car Mats-Universal 3 Piece Anti-Skid Noodle Car Foot Mats, Durable Vinyl Rubber Floor Mat,",
+      "price": 131500,
+      "image_url": "https://encrypted-tbn0.gstatic.com/shopping?q=tbn:ANd9GcSIMOtrtcakBebwkdKjaf8EQDGtxZlsp14mfWFOI7h8u661mm5bB0Tzfz4qa-CdWyXZaYEDk53SghlUvu1oOy7RlYXrNw6ZWwX9vsPh8eLK",
+      "catogory": "Mat",
+      "brand": "Mat"
+    },
+    {
+      "id": "e919",
+      "name": "Tail Lamp",
+      "price": 1300,
+      "image_url": "https://www.autogoldlights.com/images/product-page/tail.jpeg",
+      "catogory": "Tail Lamp",
+      "brand": "LED"
+    },
+    {
+      "id": "c918",
+      "name": "Car Craft Compatible With Maruti Suzuki Swift 2018-2023 Upgraded Tail Light Lamp Xenon Taillight Retrofit",
+      "price": 17998,
+      "image_url": "https://encrypted-tbn2.gstatic.com/shopping?q=tbn:ANd9GcSyJKLjo0pXx-Q1EI7JmCSWCaG2dBG-eQJ0G7w7UIibx51Kv_e4oHfTSHEhnunNdZLm1bhLyDAKnHOVMZq4M5KCVu6FAmSa283-y0pjkz8pcvp9jxULn7uV6aY"
+    },
+    {
+      "id": "7026",
+      "name": "Maties Waterproof Trunk/Boot Strip Flow Light Tail Lamp Compatible For All Car 134 Car Fancy Lights",
+      "price": 739,
+      "image_url": "https://encrypted-tbn2.gstatic.com/shopping?q=tbn:ANd9GcQDyE-90pFyZsNjVLbhCTvEV3wK4dKoF9nv-JJKis-98cnghJSlrK-Rb19Pt7ZmsK0VvhYDl5N2MKWf6IAskJoaz8rZXwEcLYvKF-YHB7CO"
+    },
+    {
+      "id": "4385",
+      "name": "Allextreme R45-H4 LED Headlight 140 Watt H4 Car Driving Headlamp Bulb Lights 30000LM Chip Fog Light Ideal",
+      "price": 3380,
+      "image_url": "https://m.media-amazon.com/images/I/71v348AMkNL.jpg"
+    },
+    {
+      "id": "6f21",
+      "name": "GT Wing Spoiler",
+      "price": 6500,
+      "image_url": "https://rukminim2.flixcart.com/image/1200/1200/xif0q/car-flywheel/7/k/h/gt-wing-spoiler-43-3-adjustable-aluminum-universal-lightweight-original-imah7rfh2zgucgrj.jpeg"
+    },
+    {
+      "id": "3293",
+      "name": "alloy wheel",
+      "price": 122000,
+      "image_url": "https://www.platiindia.com/images/ProductImages/medium/py-010-20-114x5--black-milling.side-1654155482.jpg",
+      "catogory": "alloy",
+      "descreption": "ergehgrthtyhertgrtdf"
+    },
+    {
+      "id": "7d5b",
+      "name": "onyx ",
+      "price": 33000,
+      "image_url": "https://bombaytyres.com/cdn/shop/files/12_d362e669-33e6-4cd8-b380-eafe9eb6ee29.jpg?v=1709317280&width=1946",
+      "catogory": "alloy wheels",
+      "descreption": "02 16 inch 4 or 8 Hole Copper",
+      "in_stock": true,
+      "brand": "alloy"
+    },
+    {
+      "id": "0303",
+      "name": "UNO Minda W1D147-000M00 15 inch Car Alloy Wheel, PCD 100, 5 Hole, Black Machined finish",
+      "price": 8029,
+      "image_url": "https://encrypted-tbn3.gstatic.com/shopping?q=tbn:ANd9GcRCF4B-dBuvNWkySGZyIcs9qbR96Z3MwKxtkceDhyVaBrE6bzKhP6FfR8Xp0rbTz-ZCc4IXdvpWeYMgXDKr0Km1SeaX_oEpwYDJiZrF0JqSf_-hFkeLZdr1qs8",
+      "catogory": "alloy",
+      "description": "UNO Minda W1D147-000M00 15 inch Car Alloy Wheel, PCD 100, 5 Hole, Black Machined finish",
+      "in_stock": true,
+      "brand": "MKA"
+    },
+    {
+      "id": "f909",
+      "name": "Xxr 571 18x8.5 5x112 35et Diamond Cut Purple wheel",
+      "price": 53600,
+      "image_url": "https://encrypted-tbn2.gstatic.com/shopping?q=tbn:ANd9GcTqvG758pgcM3d8JKg5AvoDUFDswG30CemDrIJjlbhA4ZkupN_AbefE9ccw1k0HMMgkqGGAzeF9Q7aAsTvYxoLN7x33Buha9aFhF-4LZ-W71Jze7ypdZjdMTA",
+      "catogory": "alloy",
+      "description": "Xxr 571 18x8.5 5x112 35et Diamond Cut Purple wheel",
+      "in_stock": true,
+      "brand": "XR"
+    },
+    {
+      "id": "05a4",
+      "name": "UNO MINDA W1D073-000M00 16 inch PCD 108 Black Machined for Nexon, Zest, Aspire, Eco Sports",
+      "price": 8280,
+      "image_url": " https://encrypted-tbn0.gstatic.com/shopping?q=tbn:ANd9GcQ3v56gTKiJQE-RH1JZBuoUz9XXSs-hOQFj2y4JyxQeqNL797-oN62bZoV3Of_6-yOxCZ7bZIBrZZoTdk8BLBl-wnEzvy9jWywQWHpriqGBLFj9LiOgxt4P",
+      "catogory": "alloy",
+      "description": "UNO MINDA W1D073-000M00 16 inch PCD 108 Black Machined for Nexon, Zest, Aspire, Eco Sports",
+      "in_stock": true,
+      "brand": "alloy"
+    }
+  ]
+}
