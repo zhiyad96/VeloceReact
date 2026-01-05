@@ -28,7 +28,7 @@ import OrederHistory from "./NonAuth/order/OrederHistory";
 import ShippingAdress from "./NonAuth/order/shippingAdress";
 
 // --------------admin----------------------
-import Dashboard from "./admin/pages/Dashboard";
+import Dashboard from "./admin/pages/dashboard";
 import Users from "./admin/pages/users";
 import Orders from "./admin/pages/orders";
 import Products from "./admin/pages/Products";
@@ -68,7 +68,7 @@ function LayoutWrapper() {
         <Route path="/shippingAdress" element={<ProtectedRoute><ShippingAdress /></ProtectedRoute>} />
 
         {/* ----------------- Admin-only route ----------------- */}
-        <Route path="/Dashboard/*" element={<AdminProtectedRoute><Dashboard /></AdminProtectedRoute>} />
+        <Route path="/dashboard/*" element={<AdminProtectedRoute><Dashboard /></AdminProtectedRoute>} />
         <Route path="/users/*" element={<AdminProtectedRoute><Users/></AdminProtectedRoute>} />
         <Route path="/orders/*" element={<AdminProtectedRoute><Orders/></AdminProtectedRoute>} />
         <Route path="/Products/*" element={<AdminProtectedRoute><Products/></AdminProtectedRoute>} />
