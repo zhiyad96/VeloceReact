@@ -68,7 +68,7 @@ function LayoutWrapper() {
         <Route path="/shippingAdress" element={<ProtectedRoute><ShippingAdress /></ProtectedRoute>} />
 
         {/* ----------------- Admin-only route ----------------- */}
-        <Route path="/dashboard/*" element={<AdminProtectedRoute><Dashboard /></AdminProtectedRoute>} />
+        <Route path="/Dashboard/*" element={<AdminProtectedRoute><Dashboard /></AdminProtectedRoute>} />
         <Route path="/users/*" element={<AdminProtectedRoute><Users/></AdminProtectedRoute>} />
         <Route path="/orders/*" element={<AdminProtectedRoute><Orders/></AdminProtectedRoute>} />
         <Route path="/Products/*" element={<AdminProtectedRoute><Products/></AdminProtectedRoute>} />
