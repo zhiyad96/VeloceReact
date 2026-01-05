@@ -28,7 +28,7 @@ import OrederHistory from "./NonAuth/order/OrederHistory";
 import ShippingAdress from "./NonAuth/order/shippingAdress";
 
 // --------------admin----------------------
-import Dashboard from "./admin/pages/Dashboard.jsx";
+import Dashboard from "./admin/pages/Admindashboard";
 import Users from "./admin/pages/users";
 import Orders from "./admin/pages/orders";
 import Products from "./admin/pages/Products";
@@ -39,7 +39,7 @@ function LayoutWrapper() {
 
   
   const hideNavbar =
-    location.pathname.startsWith("/Dashboard") ||
+    location.pathname.startsWith("/Admindashboard") ||
     location.pathname==="/users"||
     location.pathname==="/orders"||
     location.pathname==="/products"||
@@ -68,7 +68,7 @@ function LayoutWrapper() {
         <Route path="/shippingAdress" element={<ProtectedRoute><ShippingAdress /></ProtectedRoute>} />
 
         {/* ----------------- Admin-only route ----------------- */}
-        <Route path="/Dashboard/*" element={<AdminProtectedRoute><Dashboard /></AdminProtectedRoute>} />
+        <Route path="/Admindashboard/*" element={<AdminProtectedRoute><Dashboard /></AdminProtectedRoute>} />
         <Route path="/users/*" element={<AdminProtectedRoute><Users/></AdminProtectedRoute>} />
         <Route path="/orders/*" element={<AdminProtectedRoute><Orders/></AdminProtectedRoute>} />
         <Route path="/Products/*" element={<AdminProtectedRoute><Products/></AdminProtectedRoute>} />
