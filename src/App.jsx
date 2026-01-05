@@ -28,7 +28,7 @@ import OrederHistory from "./NonAuth/order/OrederHistory";
 import ShippingAdress from "./NonAuth/order/shippingAdress";
 
 // --------------admin----------------------
-import dashboard from "./admin/pages/dashboard";
+import Dashboard from "./admin/pages/Dashboard";
 import Users from "./admin/pages/users";
 import Orders from "./admin/pages/orders";
 import Products from "./admin/pages/Products";
