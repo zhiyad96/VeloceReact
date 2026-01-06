@@ -28,7 +28,7 @@ import OrederHistory from "./NonAuth/order/OrederHistory";
 import ShippingAdress from "./NonAuth/order/shippingAdress";
 
 // --------------admin----------------------
-import Dashboard from "./admin/pages/Admindashboard";
+import Dashboard from "./admin/pages/dashboard";
 import Users from "./admin/pages/users";
 import Orders from "./admin/pages/orders";
 import Products from "./admin/pages/Products";
@@ -37,14 +37,14 @@ import Products from "./admin/pages/Products";
 function LayoutWrapper() {
   const location = useLocation();
 
-  
   const hideNavbar =
-    location.pathname.startsWith("/Admindashboard") ||
-    location.pathname==="/users"||
-    location.pathname==="/orders"||
-    location.pathname==="/products"||
-    location.pathname === "/login" ||
-    location.pathname === "/registration";
+  location.pathname=="/dashboard" ||
+  location.pathname.startsWith("/users") ||
+  location.pathname.startsWith("/orders") ||
+  location.pathname.startsWith("/Products") ||
+  location.pathname === "/login" ||
+  location.pathname === "/registration";
+
 
   return (
     <>
@@ -68,7 +68,7 @@ function LayoutWrapper() {
         <Route path="/shippingAdress" element={<ProtectedRoute><ShippingAdress /></ProtectedRoute>} />
 
         {/* ----------------- Admin-only route ----------------- */}
-        <Route path="/Admindashboard/*" element={<AdminProtectedRoute><Dashboard /></AdminProtectedRoute>} />
+        <Route path="/dashboard/*" element={<AdminProtectedRoute><Dashboard /></AdminProtectedRoute>} />
         <Route path="/users/*" element={<AdminProtectedRoute><Users/></AdminProtectedRoute>} />
         <Route path="/orders/*" element={<AdminProtectedRoute><Orders/></AdminProtectedRoute>} />
         <Route path="/Products/*" element={<AdminProtectedRoute><Products/></AdminProtectedRoute>} />
@@ -95,3 +95,109 @@ function App() {
 }
 
 export default App;
+
+
+
+
+
+
+
+
+
+
+
+
+// import React from "react";
+// import { BrowserRouter, Routes, Route, useLocation } from "react-router-dom";
+// import { Toaster } from "react-hot-toast";
+
+// import Navbar from "./pages/Navbar";
+// import Home from "./NonAuth/Home";
+// import Login from "./Auth/login";
+// import Registration from "./Auth/registration";
+// import Product from "./NonAuth/Product";
+// import Cart from "./NonAuth/Cart";
+// import Productdetails from "./NonAuth/Productdetails";
+// import Wishlist from "./NonAuth/Wishlist";
+// import About from "./pages/About";
+
+// import Authprovider from "./Context/Authcontext";
+// import Cartprovider from "./Context/Cartcontext";
+// import Wishlistprovider from "./Context/Wishlistcontext";
+
+// import { 
+//   ProtectedRoute, 
+//   AdminProtectedRoute, 
+//   PublicUserRoute
+// } from "./NonAuth/ProtectRoute";
+
+// import OrederHistory from "./NonAuth/order/OrederHistory";
+// import ShippingAdress from "./NonAuth/order/shippingAdress";
+
+// // --------------admin----------------------
+// import Dashboard from "./admin/pages/Admindashboard";
+// import Users from "./admin/pages/users";
+// import Orders from "./admin/pages/orders";
+// import Products from "./admin/pages/Products";
+
+
+// function LayoutWrapper() {
+//   const location = useLocation();
+
+//   const hideNavbar =
+//     location.pathname.startsWith("/Admindashboard") ||
+//     location.pathname === "/users" ||
+//     location.pathname === "/orders" ||
+//     location.pathname === "/products" ||
+//     location.pathname === "/login" ||
+//     location.pathname === "/registration";
+
+//   return (
+//     <>
+//       {!hideNavbar && <Navbar />}
+
+//       <Routes>
+//         {/* -------- Public User Pages (EVERYONE CAN SEE) -------- */}
+//         <Route path="/" element={<Home />} />
+//         <Route path="/product" element={<Product />} />
+//         <Route path="/product/:id" element={<Productdetails />} />
+//         <Route path="/about" element={<About />} />
+
+//         {/* -------- Login / Register -------- */}
+//         <Route path="/login" element={<PublicUserRoute><Login /></PublicUserRoute>} />
+//         <Route path="/registration" element={<PublicUserRoute><Registration /></PublicUserRoute>} />
+
+//         {/* -------- User Protected -------- */}
+//         <Route path="/cart" element={<ProtectedRoute><Cart /></ProtectedRoute>} />
+//         <Route path="/wishlist" element={<ProtectedRoute><Wishlist /></ProtectedRoute>} />
+//         <Route path="/OrederHistory" element={<ProtectedRoute><OrederHistory /></ProtectedRoute>} />
+//         <Route path="/shippingAdress" element={<ProtectedRoute><ShippingAdress /></ProtectedRoute>} />
+
+//         {/* -------- Admin Protected -------- */}
+//         <Route path="/Admindashboard/*" element={<AdminProtectedRoute><Dashboard /></AdminProtectedRoute>} />
+//         <Route path="/users/*" element={<AdminProtectedRoute><Users /></AdminProtectedRoute>} />
+//         <Route path="/orders/*" element={<AdminProtectedRoute><Orders /></AdminProtectedRoute>} />
+//         <Route path="/Products/*" element={<AdminProtectedRoute><Products /></AdminProtectedRoute>} />
+//       </Routes>
+//     </>
+//   );
+// }
+
+// function App() {
+//   return (
+//     <>
+//       <BrowserRouter>
+//         <Authprovider>
+//           <Cartprovider>
+//             <Wishlistprovider>
+//               <LayoutWrapper />
+//             </Wishlistprovider>
+//           </Cartprovider>
+//         </Authprovider>
+//       </BrowserRouter>
+//       <Toaster position="top-right" reverseOrder={false} />
+//     </>
+//   );
+// }
+
+// export default App;
